@@ -1,6 +1,6 @@
 pragma solidity ^0.4.2;
 
-contract Election {
+contract Results {
      // Model a Candidate (what they look like)
      struct Candidate { //this is like creating custom Type (interface)
          uint id;
@@ -21,7 +21,7 @@ contract Election {
         uint indexed _candidateId
     );
 
-    function Election () public {
+    function Results () public {
         addCandidate("Student 1");
         addCandidate("Student 2");
     }
